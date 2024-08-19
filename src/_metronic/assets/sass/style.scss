@@ -1,0 +1,421 @@
+//
+// Theme style
+//
+
+// Initialize
+@import 'init';
+
+// Components
+@import './core/components/components';
+@import 'components/components';
+
+// Layout
+@import 'layout/layout';
+
+:root {
+    --primary-color: #3fa7b9 !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+}
+.asside_menu_item {
+    // border-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.bussiness_tables thead tr {
+    border-bottom: 1px solid #000 !important;
+    // border-top: 1px solid #000 !important;
+}
+.table:not(.table-bordered) tfoot tr:last-child th, .table:not(.table-bordered) tfoot tr:last-child td, .table:not(.table-bordered) tbody tr:last-child th, .table:not(.table-bordered) tbody tr:last-child td {
+    border-bottom: 1px solid #00000010 !important;
+}
+.bussiness_tables thead tr td {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+}
+.bussiness_tables tbody tr {
+    border-bottom: 1px solid #00000010 !important;
+}
+.table_item_preview {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table_paginator button{
+    padding: 10px !important;
+}
+.table_paginator .p-dropdown{
+    padding: 7px !important;
+    border: 1px solid #00000020 !important;
+    border-radius: 5px !important;
+}
+.table_paginator .p-dropdown-label{
+    margin-right: 3px !important;
+}
+.modal-dialog {
+    height: 80vh !important;
+    display: flex !important;
+    align-items: center !important;
+}
+.under_construction_page {
+    height: 80vh !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.under_construction_image_container {
+    width: 250px !important;
+    height: 250px !important;
+}
+.prof_img_pre {
+    border-radius: 50% !important;
+    height: 125px !important;
+    width: 125px !important;
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prof_img_pre_list {
+    border-radius: 50% !important;
+    min-height: 55px !important;
+    min-width: 55px !important;
+    height: 55px !important;
+    width: 55px !important;
+    overflow: hidden !important;
+}
+.p-dropdown-items {
+    padding: 3px !important;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff !important;
+}
+.p-dropdown-items li {
+    display: flex;
+    justify-content: center;
+}
+.p-dropdown-items li:hover {
+    background-color: #00000010 !important;
+}
+.p-highlight {
+    background-color: #dbdfe9 !important;
+    border-radius: 5px !important;
+}
+.campaign_form_pre {
+    border: 1px solid #00000020 !important;
+    border-radius: 10px !important;
+    height: 100px !important;
+    width: 100px !important;
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster_logo {
+    border: none !important;
+    border-radius: 10px !important;
+    height: 75px !important;
+    width: 75px !important;
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster_image1 {
+    border: none !important;
+    border-radius: 10px !important;
+    height: 75px !important;
+    width: 150px !important;
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster_image2 {
+    border: none !important;
+    border-radius: 10px !important;
+    height: 38px !important;
+    width: 150px !important;
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster_image3 {
+    border: none !important;
+    // border: 1px solid #00000020 !important;
+    border-radius: 10px !important;
+    height: 38px !important;
+    width: 150px !important;
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-line {
+    border-right: 1px solid #000 !important;
+}
+.container {
+    max-width: none !important;
+}
+.two-line-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit the text to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#react-qrcode-logo {
+    height: 100% !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    max-height: 900px !important;
+}
+.print_qr {
+    height: 450px !important;
+    width: 450px !important;    
+}
+.qr_container {
+    width: 100% !important;
+    height: 3508px !important;
+}
+.poster_container {
+    width: 1000px !important;
+    max-width: 1200px !important;
+}
+.h-100vh {
+    height: 100vh !important;
+} 
+.form-check-input:checked {
+    background-color: var(--primary-color) !important;
+}
+.pdf_width {
+    max-width: 300px !important;
+    font-size: 9px !important;
+}
+// .omc_btns {
+//     width: 100px !important;
+//     overflow: hidden !important;
+//     text-wrap: 1 !important;
+// }
+.ro_name_bg {
+    background-color: aliceblue !important;
+    border-radius: 10px;
+}   
+.winner_name_anime {
+    font-size: 50px !important;
+    font-weight: 900 !important;
+}
+.cup_animation {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+body::-webkit-scrollbar {
+    width: 10px !important;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #3fa7b9 !important;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #3fa7b930 !important;
+  }
+
+.termsPageHeader {
+    font-size: 35px !important;
+}
+.screen_height {
+    height: 100vh !important; 
+    margin-bottom: 230px;
+}
+.bg_primary {
+    background-color: var(--primary-color) !important;
+}
+.scrolltop {
+    border-radius: 50% !important;
+}
+.nav-link.active {
+    background-color: #3fa7b930 !important;
+    border-radius: 0 !important;
+    border-top: 4px solid #3fa7b9 !important;
+    margin: 0 !important;
+}
+.nav-link {
+    margin-top: 4px !important;
+    color: #000 !important;
+    font-weight: 600 !important;    
+}  
+.custom_prize_box {
+    border-radius: 10px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 4px 4px 8px 4px !important;
+}
+
+
+// Ajith CSS
+
+@media (max-width: 767px) {
+    .mobile-padding{
+        padding: 12px 15px !important;
+    }
+    .modal-dialog {
+        margin-top: 60px !important;
+    }
+    .screen_height{
+        margin-bottom: 100px;
+    }
+}
+
+.footer-fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+}
+.copy-margin{
+    margin-bottom: 70px;
+}
+
+@media (max-width: 425px) {
+    .copy-margin{
+        margin-bottom: 90px;    
+    }
+}
+
+
+.pdf-width-height canvas{
+    height: 900px !important;
+    width:750px !important;
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .pdf-width-height canvas {
+        height: 750px !important;
+        width: 550px !important;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 476px) {
+    .pdf-width-height canvas {
+        height: 750px !important;
+        width: 400px !important;
+    }
+}
+
+@media (max-width: 475px) {
+    .pdf-width-height canvas {
+        height: 750px !important;
+        width: 380px !important;
+    }
+    .screen_height {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 500px) {
+    .login-card-width{
+        width: 400px;
+    }
+}
+
+@media (max-width: 499px) {
+    .login-card-width{
+        width: 300px;   
+    }
+}
+
+.btn-height-width{
+    min-height: 200px !important;
+    min-width: 200px !important;
+    border-radius: 50% !important;
+}
+.anime-img{
+    margin: 7px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.image-scroll{
+    overflow: scroll;
+}
+
+@media (min-width: 1200px) {
+    .image-scroll{
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .image-scroll{
+        max-width: 900px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .image-scroll{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .image-scroll{
+        max-width: 300px;
+    }
+}
+@media (max-width: 424px) and (min-width: 320px) {
+    .image-scroll{
+        max-width: 250px;
+    }
+}
+
+.campaign-bg{
+    background-image: url(../../../../public/media/auth/campaign_login_bg_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-card-width{
+    border-radius: 18px;
+}
+.registration-shadow{
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.campaign_banner {
+    margin-top: 25px;
+}
+
+
+.winner-card{
+    background-color: #b7e0e7;
+    border-radius: 10px;
+    padding: 10px;
+}
+.focused_div {
+    border: none;
+}
+
+.focused_div:focus {
+    border: none !important;
+    outline: none !important;
+}
